@@ -3,11 +3,12 @@
 }
 
 .grid {
-    width: 200px;
-    height: 400px;
+    width: 211px;
+    height: 421px;
     background-color: yellow;
     display: flex;
     flex-wrap: wrap;
+    grid-gap: 1px;
 
 
 }
@@ -23,11 +24,13 @@
 
 .mini-grid {
     margin-left: 50px;
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     display: flex;
     flex-wrap: wrap;
     background-color: yellow;
+    grid-gap: 1px;
+
 }
 
 .mini-grid div {
